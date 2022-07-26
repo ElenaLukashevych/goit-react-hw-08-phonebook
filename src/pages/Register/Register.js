@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import operations from 'redux/auth/auth-operations';
-import {Button } from '@mui/material';
+import s from './Register.module.css';
 
 
 function Register() {
@@ -24,10 +24,10 @@ function Register() {
 
     return (
         <div>
-            <h1>Register</h1>
-        <form onSubmit={handleSubmit}>
+            <h1 className={s.title}>Register</h1>
+        <form className={s.form} onSubmit={handleSubmit}>
                 <label>Name
-                    <input
+                    <input className={s.input}
             type="text"
               name="name"
               value={name}
@@ -37,7 +37,7 @@ function Register() {
               required/>
                 </label>
                 <label>Email
-                    <input
+                    <input className={s.input}
             type="email"
             name="email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
@@ -47,7 +47,7 @@ function Register() {
             onChange={handleChange}/>
                 </label>
                 <label>Password
-                    <input
+                    <input className={s.input}
             type="password"
             name="password"
             required
@@ -57,7 +57,7 @@ function Register() {
         
                     />
                 </label>
-                <Button variant="contained" type="submit">Register</Button>
+                <button className={s.button} type="submit">Register</button>
             </form>
             </div>
 )

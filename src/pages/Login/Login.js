@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import operations from 'redux/auth/auth-operations';
-import { Button } from '@mui/material';
+import s from './Login.module.css';
 
 
 function Login() {
@@ -25,10 +25,10 @@ function Login() {
 
     return (
         <div>
-            <h2>Login</h2>
-            <form onSubmit={handleSubmit}>
+            <h2 className={s.title}>Login</h2>
+            <form className={s.form} onSubmit={handleSubmit}>
                 <label >Email
-                    <input
+                    <input className={s.input}
             type="email"
             name="email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
@@ -39,7 +39,7 @@ function Login() {
                     </label>
                    
                 <label>Password
-                    <input
+                    <input className={s.input}
             type="password"
             name="password"
             required
@@ -48,7 +48,7 @@ function Login() {
             autoComplete='off'
                     />
                 </label>
-                <Button variant="contained" type="submit">Login</Button>
+                <button className={s.button} type="submit">Login</button>
             </form>
             </div>
 )
