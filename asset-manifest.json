@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.203f02f1.css",
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.f3bb241c.css",
     "main.js": "/goit-react-hw-08-phonebook/static/js/main.dcde04ef.js",
     "static/css/592.7e152f6e.chunk.css": "/goit-react-hw-08-phonebook/static/css/592.7e152f6e.chunk.css",
     "static/js/592.ed3ee91c.chunk.js": "/goit-react-hw-08-phonebook/static/js/592.ed3ee91c.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/960.8f7d8bb1.chunk.js": "/goit-react-hw-08-phonebook/static/js/960.8f7d8bb1.chunk.js",
     "static/media/1626799609_2_kartinkin_com_p_fon_s_malenkimi_znachkami_krasivo_2.png": "/goit-react-hw-08-phonebook/static/media/1626799609_2_kartinkin_com_p_fon_s_malenkimi_znachkami_krasivo_2.08dafc0d05b821865b8c.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.203f02f1.css.map": "/goit-react-hw-08-phonebook/static/css/main.203f02f1.css.map",
+    "main.f3bb241c.css.map": "/goit-react-hw-08-phonebook/static/css/main.f3bb241c.css.map",
     "main.dcde04ef.js.map": "/goit-react-hw-08-phonebook/static/js/main.dcde04ef.js.map",
     "592.7e152f6e.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/592.7e152f6e.chunk.css.map",
     "592.ed3ee91c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/592.ed3ee91c.chunk.js.map",
@@ -26,7 +26,7 @@
     "960.8f7d8bb1.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/960.8f7d8bb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.203f02f1.css",
+    "static/css/main.f3bb241c.css",
     "static/js/main.dcde04ef.js"
   ]
 }
