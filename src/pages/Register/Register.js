@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import operations from 'redux/auth/auth-operations';
-import { FormControl, Box, Button, TextField } from '@mui/material';
+import {Button } from '@mui/material';
 
 
 function Register() {
